@@ -1,9 +1,12 @@
 package recuperacion_entornos;
 
+import java.util.Scanner;
+
 public class Recuperacion_entornos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner lector = new Scanner (System.in);
 		String[] nombre; // el vector de nombres
 		double [][] nota; // la matriz de notas
 		
