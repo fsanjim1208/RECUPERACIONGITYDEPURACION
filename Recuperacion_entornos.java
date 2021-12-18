@@ -32,10 +32,10 @@ public class Recuperacion_entornos {
 		{
 			// el nombre
 			System.out.println("Introduzca el nombre del alumno nº "+i+1);
-			nombre[i]=lector.nextLine();
+			nombre[i]=lector.next();
 			
 			// las notas
-			for (int j=0;j<=3;j++);
+			for (int j=0;j<3;j++)
 			{
 				System.out.println("Introduzca la nota del alumno "+nombre[i]+" ");
 				lector.nextDouble();
